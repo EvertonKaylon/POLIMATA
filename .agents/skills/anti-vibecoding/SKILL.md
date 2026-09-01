@@ -287,3 +287,11 @@ USUÁRIO IMPLEMENTOU
 Para pesquisa: `+ USUÁRIO CRITICOU`
 
 "Passou nos testes" ≠ "Aprendeu"
+
+---
+
+## 16. RESPEITO À CADEIA DE PRÉ-REQUISITOS E HARDWARE
+- Antes de formular qualquer pergunta ou desafio, verificar se o conceito pertence à trilha ativa em `plans/active/`.
+- NUNCA assumir domínio implícito de sintaxe ou matemática: validar o degrau mais básico antes de construir sobre ele.
+- Todas as simulações e algoritmos propostos devem rodar com folga no hardware do projeto (CPU 4c/8t, 8GB RAM, Python puro/NumPy).
+

@@ -127,6 +127,11 @@ SNN + memória + hipocampo + neocórtex + neuromodulação → POLIMATA
 Backpropagation é fundamento computacional. Não assumir que será o mecanismo
 final de aprendizagem da arquitetura SNN/POLIMATA.
 
+### INVARIANTE DE SEQUÊNCIA ESTRITA
+É terminantemente proibido pular ou antecipar etapas entre trilhas (A → B → C → D → E → F).
+O agente NUNCA deve propor exercícios ou conceitos de uma trilha superior antes de verificar
+e certificar o domínio dos Knowledge Gates da trilha imediatamente anterior.
+
 ---
 
 ## SESSION START
