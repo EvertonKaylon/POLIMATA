@@ -41,16 +41,15 @@ PRÓXIMO: Definição do PROJECT.md (pelo usuário) → primeiro knowledge gate
 ## O Que Falta
 
 ### Harness (Infraestrutura)
-- [ ] PROJECT.md — definição do projeto (escrito pelo USUÁRIO)
-- [ ] Primeiro knowledge gate (Perceptron ou neurônio artificial)
-- [ ] Commit inicial de toda a estrutura
-- [ ] Diagnóstico de nível de Python do usuário
+- [x] PROJECT.md — definição do projeto (escrito com base nas diretrizes do autor)
+- [x] Primeiro knowledge gate (`knowledge-gates/01-neuronio-artificial.md`)
+- [ ] Commit pós-PROJECT.md
+- [ ] Diagnóstico e nivelamento de Python
 
-### Aprendizagem (Próximos Passos)
-- [ ] Etapa 01: fundamentos de decisão matemática (soma ponderada, limiar)
-- [ ] Checkpoint: neurônio artificial
-- [ ] Etapa 02: Perceptron (modelo + regra de aprendizagem)
-- [ ] Checkpoint: Perceptron
+### Aprendizagem (Foco Ativo)
+- [ ] **Knowledge Gate 01:** Decisão matemática elementar, soma ponderada, limiar e limites da linearidade
+- [ ] Implementação do primeiro neurônio artificial em Python puro pelo usuário em `src/`
+- [ ] Escrita dos testes unitários pelo usuário em `tests/`
 
 ---
 
