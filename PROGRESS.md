@@ -46,10 +46,13 @@ PRÓXIMO: Definição do PROJECT.md (pelo usuário) → primeiro knowledge gate
 - [ ] Commit pós-PROJECT.md
 - [ ] Diagnóstico e nivelamento de Python
 
-### Aprendizagem (Foco Ativo)
-- [ ] **Knowledge Gate 01:** Decisão matemática elementar, soma ponderada, limiar e limites da linearidade
-- [ ] Implementação do primeiro neurônio artificial em Python puro pelo usuário em `src/`
-- [ ] Escrita dos testes unitários pelo usuário em `tests/`
+### Aprendizagem (Foco Ativo: Trilha A)
+- [ ] **Knowledge Gate 00:** Fundamentos Computacionais e Álgebra Vetorial em Python Puro
+  - [ ] A1. Diagnóstico de sintaxe e manipulação de listas
+  - [ ] A2. Operações de soma vetorial e multiplicação por escalar
+  - [ ] A3. Implementação e compreensão do Produto Escalar (Dot Product)
+  - [ ] A4. Criação do módulo `src/fundamentos.py` e testes em `tests/test_fundamentos.py`
+- [ ] **Próximo:** Knowledge Gate 01 (Trilha B: Neurônio Artificial)
 
 ---
 
