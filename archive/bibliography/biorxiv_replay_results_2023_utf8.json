@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Cadherins orchestrate specific patterns of perisomatic inhibition onto distinct pyramidal cell populations",
+    "authors": "Jezequel, J.; Condomitti, G.; Kroon, T.; Hamid, F.; Sanalidou, S.; Garces, T.; Maeso, P.; Balia, M.; Rico, B.",
+    "author_corresponding": "Beatriz Rico",
+    "author_corresponding_institution": "King's College London",
+    "doi": "10.1101/2023.09.28.559922",
+    "date": "2023-10-01",
+    "version": "2",
+    "type": "new results",
+    "license": "cc_no",
+    "category": "neuroscience",
+    "jatsxml": "https://www.biorxiv.org/content/early/2023/10/01/2023.09.28.559922.source.xml",
+    "abstract": "In the mammalian neocortex, excitatory pyramidal cells are assembled into distinct subnetworks, which project to different brain areas. GABAergic interneurons were long thought to connect promiscuously and extensively to pyramidal neurons, but recent evidence supports the existence of a cell type-specific inhibitory connectome. How and when interneurons establish such a precise connectivity pattern among intermingled populations of excitatory neurons remains enigmatic. Here, we investigated the molecular rules shaping cell type- and input-specific inhibitory connectivity in different Layer 5 (L5) pyramidal cell populations. We found that neighboring L5 intra- (L5 IT) and extra-telencephalic (L5 ET) neurons receive different combinations of inhibitory perisomatic inputs from Parvalbumin- (PV+) and Cholecystokynine-positive (CCK+) basket cells. We also identified Cdh12 and Cdh13, two cadherin superfamily members, as critical mediators of L5 pyramidal cell type-specific inhibitory connectivity. Our data revealed a minimal overlap between L5 IT and L5 ET presynaptic inhibitory networks, and suggests that different populations PV+ basket cells innervate distinct L5 pyramidal cell types. Altogether, our work unravels the contribution of cadherins in shaping cortical interneuron wiring and provides new insights into the development of inhibitory microcircuits.",
+    "funder": "NA",
+    "published": "10.1038/s41467-025-59635-z",
+    "server": "bioRxiv"
+  }
+]

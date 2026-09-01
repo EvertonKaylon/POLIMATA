@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuromorphic R&D Lab - Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="glass-bg"></div>
+    
+    <header>
+        <div class="logo-area">
+            <span class="pulse-dot"></span>
+            <h1>NEUROMORPHIC LAB</h1>
+            <span class="badge">FASE 2 R&D</span>
+        </div>
+        <div class="system-status">
+            <span>Status: <strong class="online-text">Pronto para Simular</strong></span>
+        </div>
+    </header>
+
+    <main class="dashboard-grid">
+        <!-- PAINEL LATERAL: CONTROLES -->
+        <section class="panel control-panel">
+            <h2 class="section-title">Parâmetros Biológicos</h2>
+            
+            <div class="control-group">
+                <label for="taxa_aprendizado">Taxa de Aprendizado (α)</label>
+                <div class="range-display">
+                    <input type="range" id="taxa_aprendizado" min="0.005" max="0.100" step="0.005" value="0.030">
+                    <span id="val_taxa_aprendizado">0.030</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label for="epocas_replay">Épocas de Sono (Replay)</label>
+                <div class="range-display">
+                    <input type="range" id="epocas_replay" min="100" max="1000" step="50" value="400">
+                    <span id="val_epocas_replay">400</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label for="passos_inferencia">Passos de Inferência</label>
+                <div class="range-display">
+                    <input type="range" id="passos_inferencia" min="5" max="30" step="1" value="15">
+                    <span id="val_passos_inferencia">15</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label for="nivel_ruido">Nível de Ruído Sensorial</label>
+                <div class="range-display">
+                    <input type="range" id="nivel_ruido" min="0.00" max="0.40" step="0.05" value="0.15">
+                    <span id="val_nivel_ruido">15%</span>
+                </div>
+            </div>
+
+            <hr class="divider">
+
+            <h2 class="section-title">Defesas & Hardware</h2>
+
+            <div class="toggle-group">
+                <div class="toggle-control">
+                    <input type="checkbox" id="usar_meta_pcn" checked>
+                    <label for="usar_meta_pcn">Estabilização Meta-PCN</label>
+                </div>
+                <p class="toggle-desc">Atenua perturbações de crença calculando o erro do erro.</p>
+            </div>
+
+            <div class="toggle-group">
+                <div class="toggle-control">
+                    <input type="checkbox" id="usar_gaba" checked>
+                    <label for="usar_gaba">Switch GABAérgico MS-MEC</label>
+                </div>
+                <p class="toggle-desc">Bloqueia o registro de dados anômalos na vigília.</p>
+            </div>
+
+            <div class="control-group sub-control" id="gaba_threshold_group">
+                <label for="limiar_gaba">Limiar Switch GABA</label>
+                <div class="range-display">
+                    <input type="range" id="limiar_gaba" min="0.15" max="0.50" step="0.01" value="0.32">
+                    <span id="val_limiar_gaba">0.32</span>
+                </div>
+            </div>
+
+            <div class="toggle-group">
+                <div class="toggle-control">
+                    <input type="checkbox" id="usar_ternario" checked>
+                    <label for="usar_ternario">Sinapses Ternárias (Memristor)</label>
+                </div>
+                <p class="toggle-desc">Quantiza sinapses em 3 níveis discretos (-1, 0, +1).</p>
+            </div>
+
+            <div class="control-group sub-control" id="memristor_threshold_group">
+                <label for="limiar_memristor">Limiar Memristivo (θ)</label>
+                <div class="range-display">
+                    <input type="range" id="limiar_memristor" min="0.05" max="0.30" step="0.01" value="0.15">
+                    <span id="val_limiar_memristor">0.15</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label for="limiar_poda">Limiar de Poda (Pruning)</label>
+                <div class="range-display">
+                    <input type="range" id="limiar_poda" min="0.000" max="0.020" step="0.001" value="0.005">
+                    <span id="val_limiar_poda">0.005</span>
+                </div>
+            </div>
+
+            <button id="btn_simular" class="btn btn-primary">Iniciar Ciclo Vigília-Sono</button>
+        </section>
+
+        <!-- PAINEL CENTRAL: MAPA SINÁPTICO DINÂMICO -->
+        <section class="panel visualizer-panel">
+            <h2 class="panel-header">Topologia Sináptica da Rede Profunda</h2>
+            <div class="network-container">
+                <svg id="network_svg" viewBox="0 0 600 450"></svg>
+            </div>
+            <div class="legend-area">
+                <span class="legend-item"><span class="legend-color excitatory"></span> Excitadora (+)</span>
+                <span class="legend-item"><span class="legend-color inhibitory"></span> Inibidora (-)</span>
+                <span class="legend-item"><span class="legend-color inactive"></span> Inativa (Podada)</span>
+            </div>
+        </section>
+
+        <!-- PAINEL DIREITO: MÉTRICAS E RESULTADOS -->
+        <section class="panel results-panel">
+            <h2 class="panel-header">Performance & Resiliência</h2>
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <span class="metric-label">Retenção Task A (Memória Antiga)</span>
+                    <span id="metric_retencao" class="metric-value">--</span>
+                    <div class="metric-progress"><div id="bar_retencao" class="progress-bar" style="width: 0%"></div></div>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-label">Consolidação Task B (Memória Nova)</span>
+                    <span id="metric_sucesso" class="metric-value">--</span>
+                    <div class="metric-progress"><div id="bar_sucesso" class="progress-bar" style="width: 0%"></div></div>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-label">Vulnerabilidade a Ataques (ASR)</span>
+                    <span id="metric_asr" class="metric-value">--</span>
+                    <div class="metric-progress"><div id="bar_asr" class="progress-bar warning" style="width: 0%"></div></div>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-label">Robustez Cognitiva (CR)</span>
+                    <span id="metric_cr" class="metric-value">--</span>
+                    <div class="metric-progress"><div id="bar_cr" class="progress-bar success" style="width: 0%"></div></div>
+                </div>
+            </div>
+
+            <hr class="divider">
+
+            <h2 class="panel-header">Curva de Erro Preditivo L1</h2>
+            <div class="chart-container">
+                <canvas id="error_chart"></canvas>
+            </div>
+            
+            <div id="sim_status_log" class="status-log">
+                Aguardando execução da simulação...
+            </div>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

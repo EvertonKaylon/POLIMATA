@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neurônio Artificial — Teste Inicial</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="badge">🧬 Fase 0 — Primeiro Neurônio</div>
+            <h1>Neurônio Artificial</h1>
+            <p class="subtitle">De <strong>Cajal</strong> a <strong>McCulloch-Pitts</strong> — do biológico ao computacional</p>
+        </header>
+
+        <div class="main-grid">
+            <!-- Painel de Entradas (Dendritos) -->
+            <section class="panel inputs-panel">
+                <h2>🌿 Dendritos <span class="bio-tag">Entradas</span></h2>
+                <p class="panel-desc">Cada entrada simula uma sinapse. O peso simula a força sináptica (LTP/LTD).</p>
+
+                <div class="input-group" id="input-group-1">
+                    <div class="input-header">
+                        <span class="input-label">Sinapse x₁</span>
+                        <span class="input-value" id="x1-display">1</span>
+                    </div>
+                    <input type="range" id="x1" min="0" max="1" step="0.01" value="1" class="slider">
+                    <div class="weight-row">
+                        <span class="weight-label">Peso w₁</span>
+                        <input type="number" id="w1" value="0.5" step="0.1" min="-2" max="2" class="weight-input">
+                        <span class="weight-type" id="w1-type">excitatório</span>
+                    </div>
+                </div>
+
+                <div class="input-group" id="input-group-2">
+                    <div class="input-header">
+                        <span class="input-label">Sinapse x₂</span>
+                        <span class="input-value" id="x2-display">0</span>
+                    </div>
+                    <input type="range" id="x2" min="0" max="1" step="0.01" value="0" class="slider">
+                    <div class="weight-row">
+                        <span class="weight-label">Peso w₂</span>
+                        <input type="number" id="w2" value="0.8" step="0.1" min="-2" max="2" class="weight-input">
+                        <span class="weight-type" id="w2-type">excitatório</span>
+                    </div>
+                </div>
+
+                <div class="input-group" id="input-group-3">
+                    <div class="input-header">
+                        <span class="input-label">Sinapse x₃</span>
+                        <span class="input-value" id="x3-display">1</span>
+                    </div>
+                    <input type="range" id="x3" min="0" max="1" step="0.01" value="1" class="slider">
+                    <div class="weight-row">
+                        <span class="weight-label">Peso w₃</span>
+                        <input type="number" id="w3" value="-0.3" step="0.1" min="-2" max="2" class="weight-input">
+                        <span class="weight-type" id="w3-type">inibitório</span>
+                    </div>
+                </div>
+
+                <div class="bias-section">
+                    <span class="weight-label">Bias (b)</span>
+                    <input type="number" id="bias" value="-0.5" step="0.1" min="-3" max="3" class="weight-input">
+                    <span class="bio-note">≈ limiar de repouso (-70mV)</span>
+                </div>
+            </section>
+
+            <!-- Visualização do Neurônio -->
+            <section class="panel neuron-panel">
+                <canvas id="neuronCanvas" width="500" height="420"></canvas>
+            </section>
+
+            <!-- Painel de Saída (Axônio) -->
+            <section class="panel output-panel">
+                <h2>⚡ Axônio <span class="bio-tag">Saída</span></h2>
+
+                <div class="activation-selector">
+                    <label>Função de Ativação</label>
+                    <p class="bio-note">≈ Axon Hillock (cone axonal)</p>
+                    <div class="activation-buttons">
+                        <button class="act-btn active" data-fn="step" id="btn-step">Step</button>
+                        <button class="act-btn" data-fn="sigmoid" id="btn-sigmoid">Sigmoid</button>
+                        <button class="act-btn" data-fn="relu" id="btn-relu">ReLU</button>
+                        <button class="act-btn" data-fn="tanh" id="btn-tanh">Tanh</button>
+                    </div>
+                </div>
+
+                <div class="math-section">
+                    <h3>📐 Matemática</h3>
+                    <div class="math-step">
+                        <span class="math-label">Soma ponderada (z):</span>
+                        <code id="math-sum" class="math-code"></code>
+                    </div>
+                    <div class="math-step">
+                        <span class="math-label">Valor de z:</span>
+                        <code id="math-z" class="math-code highlight"></code>
+                    </div>
+                    <div class="math-step">
+                        <span class="math-label">Ativação f(z):</span>
+                        <code id="math-activation" class="math-code"></code>
+                    </div>
+                </div>
+
+                <div class="output-display">
+                    <div class="output-label">SAÍDA</div>
+                    <div class="output-value" id="output-value">0.00</div>
+                    <div class="output-bar-container">
+                        <div class="output-bar" id="output-bar"></div>
+                    </div>
+                    <div class="fire-status" id="fire-status">Em repouso</div>
+                </div>
+
+                <div class="bio-comparison">
+                    <h3>🔬 Analogia Biológica</h3>
+                    <div id="bio-text" class="bio-text"></div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Presets de Portas Lógicas -->
+        <section class="panel presets-panel">
+            <h2>🔌 Teste: Portas Lógicas <span class="bio-tag">McCulloch-Pitts (1943)</span></h2>
+            <p class="panel-desc">Clique para configurar o neurônio como uma porta lógica — exatamente como McCulloch e Pitts demonstraram.</p>
+            <div class="preset-buttons">
+                <button class="preset-btn" onclick="loadPreset('and')">AND</button>
+                <button class="preset-btn" onclick="loadPreset('or')">OR</button>
+                <button class="preset-btn" onclick="loadPreset('not')">NOT</button>
+                <button class="preset-btn preset-xor" onclick="loadPreset('xor')">XOR ⚠️</button>
+            </div>
+            <div id="preset-info" class="preset-info"></div>
+        </section>
+
+        <footer>
+            <p>Baseado na pesquisa: <em>Fundamentos da IA — Da Neurobiologia ao Deep Learning</em></p>
+            <p class="footer-ref">Cajal (1888) → McCulloch-Pitts (1943) → Rosenblatt (1958)</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

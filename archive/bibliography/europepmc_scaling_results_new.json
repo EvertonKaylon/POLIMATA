@@ -1,0 +1,1230 @@
+{
+  "hitCount": 267,
+  "nextCursorMark": "AoIIQJvitSg1NTM2NTE0Nw==",
+  "results": [
+    {
+      "id": "42027611",
+      "source": "MED",
+      "pmid": "42027611",
+      "pmcid": "PMC13101990",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13101990"
+        ]
+      },
+      "doi": "10.1093/nsr/nwag066",
+      "title": "Continual learning of multiple cognitive functions with a brain-inspired temporal development mechanism.",
+      "authorString": "Han B, Zhao F, Sun Y, Pan W, Zeng Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Han B",
+            "firstName": "Bing",
+            "lastName": "Han",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brain-inspired Cognitive Intelligence Lab, Institute of Automation, Chinese Academy of Sciences, Beijing 100190, China."
+                },
+                {
+                  "affiliation": "University of Chinese Academy of Sciences, Beijing 100049, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhao F",
+            "firstName": "Feifei",
+            "lastName": "Zhao",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brain-inspired Cognitive Intelligence Lab, Institute of Automation, Chinese Academy of Sciences, Beijing 100190, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sun Y",
+            "firstName": "Yinqian",
+            "lastName": "Sun",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brain-inspired Cognitive Intelligence Lab, Institute of Automation, Chinese Academy of Sciences, Beijing 100190, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pan W",
+            "firstName": "Wenxuan",
+            "lastName": "Pan",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brain-inspired Cognitive Intelligence Lab, Institute of Automation, Chinese Academy of Sciences, Beijing 100190, China."
+                },
+                {
+                  "affiliation": "University of Chinese Academy of Sciences, Beijing 100049, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zeng Y",
+            "firstName": "Yi",
+            "lastName": "Zeng",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brain-inspired Cognitive Intelligence Lab, Institute of Automation, Chinese Academy of Sciences, Beijing 100190, China."
+                },
+                {
+                  "affiliation": "State Key Laboratory of Brain Cognition and Brain-inspired Intelligence Technology, Chinese Academy of Sciences, Shanghai 200031, China."
+                },
+                {
+                  "affiliation": "University of Chinese Academy of Sciences, Beijing 100049, China."
+                },
+                {
+                  "affiliation": "Center for Long-term Artificial Intelligence, Beijing 100190, China."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "7",
+        "volume": "13",
+        "journalIssueId": 4177456,
+        "dateOfPublication": "2026 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-04-01",
+        "journal": {
+          "title": "National science review",
+          "medlineAbbreviation": "Natl Sci Rev",
+          "isoabbreviation": "Natl Sci Rev",
+          "nlmid": "101633095",
+          "essn": "2053-714X",
+          "issn": "2095-5138"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "nwag066",
+      "abstractText": "Cognitive functions in current artificial intelligence networks are tied to exponential increases in network scale, whereas the human brain can continuously learn hundreds of cognitive functions with remarkably low energy consumption. This advantage partly arises from the brain's cross-regional temporal development mechanisms, whereby the progressive formation, reorganization and pruning of connections from basic to advanced regions facilitate knowledge transfer and prevent network redundancy. Inspired by these, we propose the continual learning of multiple cognitive functions with a brain-inspired temporal development mechanism, enabling cognitive enhancement from simple to complex tasks in perception-motor-interaction (PMI). The model drives the sequential evolution of long-range inter-module connections to facilitate positive knowledge transfer and employs feedback-guided local inhibition and pruning to eliminate redundancies from prior tasks, thereby reducing energy consumption while preserving acquired knowledge. Experiments on the proposed cross-domain PMI dataset and on general datasets (CIFAR100 and ImageNet) demonstrate that the proposed method achieves continual learning capabilities while reducing network scale, without introducing regularization, replay or freezing strategies, and attains superior accuracy on new tasks compared with direct learning. The proposed method indicates that the brain's developmental mechanisms provide a valuable reference for exploring biologically plausible, low-energy enhancements of general cognitive abilities.",
+      "affiliation": "Brain-inspired Cognitive Intelligence Lab, Institute of Automation, Chinese Academy of Sciences, Beijing 100190, China.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Continual Learning",
+          "Evolutionary Growth",
+          "Biological Synaptic Plasticity",
+          "Brain-Inspired Temporal Development",
+          "Suppression And Pruning"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1093/nsr/nwag066"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13101990"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13101990?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-04-24",
+      "dateOfCreation": "2026-04-24",
+      "firstIndexDate": "2026-04-24",
+      "fullTextReceivedDate": "2026-04-23",
+      "dateOfRevision": "2026-04-24",
+      "electronicPublicationDate": "2026-01-31",
+      "firstPublicationDate": "2026-01-31"
+    },
+    {
+      "id": "41566755",
+      "source": "MED",
+      "pmid": "41566755",
+      "pmcid": "PMC13042408",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13042408"
+        ]
+      },
+      "doi": "10.1002/advs.202521815",
+      "title": "In Situ Quantization with Memory-Transistor Transfer Unit Based on Electrochemical Random-Access Memory for Edge Applications.",
+      "authorString": "Yang Z, Yang Y, Wang B, Tao Y, Pan Z, Cai L, Zhang T, Yan L, Li X, Yang Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Yang Z",
+            "firstName": "Zhen",
+            "lastName": "Yang",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "New Cornerstone Science Laboratory, Beijing Advanced Innovation Center for Integrated Circuits, School of Integrated Circuits, Peking University, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yang Y",
+            "firstName": "Yuxiang",
+            "lastName": "Yang",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "New Cornerstone Science Laboratory, Beijing Advanced Innovation Center for Integrated Circuits, School of Integrated Circuits, Peking University, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang B",
+            "firstName": "Baiqian",
+            "lastName": "Wang",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Integrated Optoelectronics, College of Electronic Science and Engineering, Jilin University, Changchun, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tao Y",
+            "firstName": "Yaoyu",
+            "lastName": "Tao",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center For Brain Inspired Chips, Institute For Artificial Intelligence, Frontiers Science, Center For Nano-optoelectronics, Peking University, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pan Z",
+            "firstName": "Zelun",
+            "lastName": "Pan",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "New Cornerstone Science Laboratory, Beijing Advanced Innovation Center for Integrated Circuits, School of Integrated Circuits, Peking University, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cai L",
+            "firstName": "Lei",
+            "lastName": "Cai",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "New Cornerstone Science Laboratory, Beijing Advanced Innovation Center for Integrated Circuits, School of Integrated Circuits, Peking University, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang T",
+            "firstName": "Teng",
+            "lastName": "Zhang",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "New Cornerstone Science Laboratory, Beijing Advanced Innovation Center for Integrated Circuits, School of Integrated Circuits, Peking University, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yan L",
+            "firstName": "Longhao",
+            "lastName": "Yan",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "New Cornerstone Science Laboratory, Beijing Advanced Innovation Center for Integrated Circuits, School of Integrated Circuits, Peking University, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li X",
+            "firstName": "Xianbin",
+            "lastName": "Li",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Integrated Optoelectronics, College of Electronic Science and Engineering, Jilin University, Changchun, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yang Y",
+            "firstName": "Yuchao",
+            "lastName": "Yang",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4674-4059"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "New Cornerstone Science Laboratory, Beijing Advanced Innovation Center for Integrated Circuits, School of Integrated Circuits, Peking University, Beijing, China."
+                },
+                {
+                  "affiliation": "Center For Brain Inspired Chips, Institute For Artificial Intelligence, Frontiers Science, Center For Nano-optoelectronics, Peking University, Beijing, China."
+                },
+                {
+                  "affiliation": "New Cornerstone Science Laboratory, Guangdong Provincial Key Laboratory of In-Memory Computing Chips, School of Electronic and Computer Engineering, Shenzhen Graduate School, Peking University, Shenzhen, China."
+                },
+                {
+                  "affiliation": "Center For Brain Inspired Intelligence, Chinese Institute for Brain Research (CIBR), Beijing, China."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4674-4059"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "18",
+        "volume": "13",
+        "journalIssueId": 4161637,
+        "dateOfPublication": "2026 Mar",
+        "monthOfPublication": 3,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-03-01",
+        "journal": {
+          "title": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+          "medlineAbbreviation": "Adv Sci (Weinh)",
+          "isoabbreviation": "Adv Sci (Weinh)",
+          "nlmid": "101664569",
+          "essn": "2198-3844",
+          "issn": "2198-3844"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "e21815",
+      "abstractText": "In-memory computing based on nonvolatile synaptic arrays with computing functions has significantly improved the computing energy efficiency of neural networks. However, current synaptic devices are mostly limited to accelerating matrix-vector multiplication operators, and the differentiated requirements for device characteristics in the training/inference stage have led to a sharp increase in the integration complexity of hybrid synaptic units. Hence, for low-precision quantization calculations of networks, a compact synaptic unit based on ionic nonvolatile memory-transistor coupling integration, which enables in situ approximate weight quantization without additional binary programming while maintaining parallel MVM computing capabilities, is developed. Results show that the quantization function, derived from the cell's physical electrical properties, achieves classification accuracy in binary neural networks comparable to the ideal quantization function. This approach supports low-precision continual learning, mitigates catastrophic forgetting, and enables efficient computations for binary/ternary large language models. At a 4 Mb array scale, ECRAM- and RRAM-based units achieve energy consumption advantage of 25.51\u00d7 and 4.84\u00d7, respectively, over traditional digital platforms, offering a robust in situ quantization framework for low-precision edge training.",
+      "affiliation": "New Cornerstone Science Laboratory, Beijing Advanced Innovation Center for Integrated Circuits, School of Integrated Circuits, Peking University, Beijing, China.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "2024B1212020002",
+            "agency": "Guangdong Provincial Key Laboratory of In-Memory Computing Chips",
+            "orderIn": 0
+          },
+          {
+            "grantId": "L234026",
+            "agency": "Natural Science Foundation of Beijing Municipality",
+            "orderIn": 0
+          },
+          {
+            "grantId": "92164302",
+            "agency": "National Natural Science Foundation of China",
+            "orderIn": 0
+          },
+          {
+            "grantId": "L257010",
+            "agency": "Natural Science Foundation of Beijing Municipality",
+            "orderIn": 0
+          },
+          {
+            "grantId": "2023YFB4502200",
+            "agency": "National Key R&D Program of China",
+            "orderIn": 0
+          },
+          {
+            "grantId": "JCYJ20241202125907011",
+            "agency": "Shenzhen Science and Technology Program",
+            "orderIn": 0
+          },
+          {
+            "grantId": "2023YFA1407200",
+            "agency": "National Key R&D Program of China",
+            "orderIn": 0
+          },
+          {
+            "grantId": "8206100486",
+            "agency": "National Natural Science Foundation of China",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Edge Computing",
+          "Weight Quantization",
+          "Ecram",
+          "In\u2010memory Computing"
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1002/advs.202521815"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13042408"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13042408?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-01-22",
+      "firstIndexDate": "2026-01-22",
+      "fullTextReceivedDate": "2026-04-02",
+      "dateOfRevision": "2026-04-03",
+      "electronicPublicationDate": "2026-01-21",
+      "firstPublicationDate": "2026-01-21"
+    },
+    {
+      "id": "41775692",
+      "source": "MED",
+      "pmid": "41775692",
+      "pmcid": "PMC13065882",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13065882"
+        ]
+      },
+      "doi": "10.1038/s41467-026-70014-0",
+      "title": "Intrinsic gradient oxygen-driven second-order memristors for continual reinforcement learning.",
+      "authorString": "Ming J, Wang R, Fu J, Liu J, Wu S, Liu S, Shao H, Li Y, Wang J, Wang Y, Zhang X, Xie L, Ling H, Huang W.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ming J",
+            "firstName": "Jianyu",
+            "lastName": "Ming",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Flexible Electronics (LoFE) & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, Nanjing, China."
+                },
+                {
+                  "affiliation": "Jiangsu Key Laboratory of Neuromorphic Electronics (LoNE), Nanjing University of Posts & Telecommunications, Nanjing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang R",
+            "firstName": "Ruiheng",
+            "lastName": "Wang",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Flexible Electronics (LoFE) & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, Nanjing, China."
+                },
+                {
+                  "affiliation": "Jiangsu Key Laboratory of Neuromorphic Electronics (LoNE), Nanjing University of Posts & Telecommunications, Nanjing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fu J",
+            "firstName": "Jingwei",
+            "lastName": "Fu",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Flexible Electronics (LoFE) & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, Nanjing, China."
+                },
+                {
+                  "affiliation": "Jiangsu Key Laboratory of Neuromorphic Electronics (LoNE), Nanjing University of Posts & Telecommunications, Nanjing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu J",
+            "firstName": "Jing",
+            "lastName": "Liu",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Flexible Electronics (LoFE) & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, Nanjing, China."
+                },
+                {
+                  "affiliation": "Jiangsu Key Laboratory of Neuromorphic Electronics (LoNE), Nanjing University of Posts & Telecommunications, Nanjing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wu S",
+            "firstName": "Siqi",
+            "lastName": "Wu",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Flexible Electronics (LoFE) & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, Nanjing, China."
+                },
+                {
+                  "affiliation": "Jiangsu Key Laboratory of Neuromorphic Electronics (LoNE), Nanjing University of Posts & Telecommunications, Nanjing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu S",
+            "firstName": "Shanshuo",
+            "lastName": "Liu",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Flexible Electronics (LoFE) & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, Nanjing, China."
+                },
+                {
+                  "affiliation": "Jiangsu Key Laboratory of Neuromorphic Electronics (LoNE), Nanjing University of Posts & Telecommunications, Nanjing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shao H",
+            "firstName": "He",
+            "lastName": "Shao",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Flexible Electronics (LoFE) & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, Nanjing, China."
+                },
+                {
+                  "affiliation": "Department of Materials Science and Engineering, City University of Hong Kong, Hongkong SAR, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li Y",
+            "firstName": "Yanfei",
+            "lastName": "Li",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Flexible Electronics (LoFE) & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, Nanjing, China."
+                },
+                {
+                  "affiliation": "Jiangsu Key Laboratory of Neuromorphic Electronics (LoNE), Nanjing University of Posts & Telecommunications, Nanjing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang J",
+            "firstName": "Jin",
+            "lastName": "Wang",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Flexible Electronics (LoFE) & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, Nanjing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang Y",
+            "firstName": "Yiru",
+            "lastName": "Wang",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Flexible Electronics (LoFE) & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, Nanjing, China."
+                },
+                {
+                  "affiliation": "Jiangsu Key Laboratory of Neuromorphic Electronics (LoNE), Nanjing University of Posts & Telecommunications, Nanjing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang X",
+            "firstName": "Xumeng",
+            "lastName": "Zhang",
+            "initials": "X",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3828-151X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Integrated Chip and System, Frontier Institute of Chip and System, Fudan University, Shanghai, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xie L",
+            "firstName": "Linghai",
+            "lastName": "Xie",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6294-5833"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Flexible Electronics (LoFE) & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, Nanjing, China. iamlhxie@njupt.edu.cn."
+                },
+                {
+                  "affiliation": "Jiangsu Key Laboratory of Neuromorphic Electronics (LoNE), Nanjing University of Posts & Telecommunications, Nanjing, China. iamlhxie@njupt.edu.cn."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ling H",
+            "firstName": "Haifeng",
+            "lastName": "Ling",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8555-0391"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Flexible Electronics (LoFE) & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, Nanjing, China. iamhfling@njupt.edu.cn."
+                },
+                {
+                  "affiliation": "Jiangsu Key Laboratory of Neuromorphic Electronics (LoNE), Nanjing University of Posts & Telecommunications, Nanjing, China. iamhfling@njupt.edu.cn."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Huang W",
+            "firstName": "Wei",
+            "lastName": "Huang",
+            "initials": "W",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7004-6408"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Flexible Electronics (LoFE) & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, Nanjing, China. vc@nwpu.edu.cn."
+                },
+                {
+                  "affiliation": "Frontiers Science Center for Flexible Electronics (FSCFE), Northwestern Polytechnical University (NPU), Xi'an, China. vc@nwpu.edu.cn."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6294-5833"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7004-6408"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8555-0391"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3828-151X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "17",
+        "journalIssueId": 4138066,
+        "dateOfPublication": "2026 Mar",
+        "monthOfPublication": 3,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-03-01",
+        "journal": {
+          "title": "Nature communications",
+          "medlineAbbreviation": "Nat Commun",
+          "isoabbreviation": "Nat Commun",
+          "nlmid": "101528555",
+          "essn": "2041-1723",
+          "issn": "2041-1723"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "3367",
+      "abstractText": "The intrinsic gradient in organisms governs long-term information processing and continual learning in dynamic environments. Reinforcement learning (RL) aims to emulate such temporal regulation to enhance learning efficiency and adaptability. However, the absence of intrinsic gradient construction in existing memristive devices leads to stochastic and abrupt state changes, disrupting the generation of temporally correlated internal states critical for continual RL. In this work, a second-order memristor incorporating a stable intrinsic oxygen gradient was designed via a molecular-coordinated layer, which enables a prolonged dynamic barrier evolution (>10<sup>2\u2009</sup>s). This slow dynamic response facilitates balanced oxygen ion migration and diffusion under unipolar spike stimulation, resulting in a significant conductance modulation (\u0394G\u2009=\u2009-98.1%). These temporally adaptive conductance states were quantitatively mapped to learning rates in the RL algorithm, allowing the learning task timescale to co-evolve with device dynamics. Compared with conventional strategies, intrinsic-gradient-driven modulation reduced training iterations by 68.75% and 35.65% in static and dynamic environments, respectively. These findings underscore the potential of slow-dynamic second-order memristors as physically grounded time-adaptive units bridging device dynamics and algorithmic learning in neuromorphic systems.",
+      "affiliation": "State Key Laboratory of Flexible Electronics (LoFE) & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, Nanjing, China.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "62288102",
+            "agency": "National Natural Science Foundation of China (National Science Foundation of China)",
+            "orderIn": 0
+          },
+          {
+            "grantId": "62288102",
+            "agency": "National Natural Science Foundation of China",
+            "orderIn": 0
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1038/s41467-026-70014-0"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13065882"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13065882?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by-nc-nd",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-03-03",
+      "firstIndexDate": "2026-03-04",
+      "fullTextReceivedDate": "2026-04-11",
+      "dateOfRevision": "2026-04-12",
+      "electronicPublicationDate": "2026-03-03",
+      "firstPublicationDate": "2026-03-03"
+    },
+    {
+      "id": "41244560",
+      "source": "MED",
+      "pmid": "41244560",
+      "pmcid": "PMC12616022",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12616022"
+        ]
+      },
+      "doi": "10.1016/j.isci.2025.113799",
+      "title": "Convergent multi-modular architecturefor adaptive learning in &lt;i&gt;Drosophila&lt;/i&gt; and artificial intelligence.",
+      "authorString": "Wang L, Li Q.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wang L",
+            "firstName": "Liyuan",
+            "lastName": "Wang",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science and Technology, Institute for AI, BNRist Center, THBI Lab, Tsinghua University, Beijing 100084, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li Q",
+            "firstName": "Qian",
+            "lastName": "Li",
+            "initials": "Q",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Medicine, Shenzhen Campus of Sun Yat-sen University, Shenzhen 518107, China."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "related_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "11",
+        "volume": "28",
+        "journalIssueId": 4037765,
+        "dateOfPublication": "2025 Nov",
+        "monthOfPublication": 11,
+        "yearOfPublication": 2025,
+        "printPublicationDate": "2025-11-01",
+        "journal": {
+          "title": "iScience",
+          "medlineAbbreviation": "iScience",
+          "isoabbreviation": "iScience",
+          "nlmid": "101724038",
+          "essn": "2589-0042",
+          "issn": "2589-0042"
+        }
+      },
+      "pubYear": "2025",
+      "pageInfo": "113799",
+      "abstractText": "Faced with dynamic, uncertain environments, a common goal of biological intelligence (BI) and artificial intelligence (AI) is to develop robust adaptive learning capabilities, despite different origins. Exploring shared mechanisms may uncover universal computational principles of information processing. In this perspective, we review recent studies of the <i>Drosophila</i> olfactory learning system, which exemplifies a hierarchical multi-modular architecture with specific connectivity patterns. Through an interdisciplinary comparison of anatomical and functional characteristics, we find that it reflects an elegant combination of two classical multi-modular methods in machine learning: ensemble learning (EL) and mixture-of-expert (MoE). This biological hierarchy incorporates the respective strengths of EL and MoE to improve adaptability and employ effective strategies to address their technical challenges, promoting generalization and alleviating interference on a continual basis. We further propose interdisciplinary research directions, such as developing bio-inspired machine learning models that reconcile EL and MoE, and conducting targeted biological experiments to dissect modular learning functions.",
+      "affiliation": "Department of Computer Science and Technology, Institute for AI, BNRist Center, THBI Lab, Tsinghua University, Beijing 100084, China.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "62406160",
+            "agency": "NSFC",
+            "orderIn": 0
+          },
+          {
+            "grantId": "59000-31610021",
+            "agency": "Sun Yat-Sen University",
+            "orderIn": 0
+          },
+          {
+            "agency": "Fundamental Research Funds for the Central Universities",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Artificial intelligence",
+          "Machine Learning",
+          "Evolving Intelligent System"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/j.isci.2025.113799"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12616022"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12616022?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2025-11-17",
+      "dateOfCreation": "2025-11-17",
+      "firstIndexDate": "2025-11-17",
+      "fullTextReceivedDate": "2025-11-18",
+      "dateOfRevision": "2025-11-20",
+      "electronicPublicationDate": "2025-10-17",
+      "firstPublicationDate": "2025-10-17"
+    },
+    {
+      "id": "42002681",
+      "source": "MED",
+      "pmid": "42002681",
+      "pmcid": "PMC13092463",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13092463"
+        ]
+      },
+      "doi": "10.1007/s40820-026-02191-y",
+      "title": "In-Sensor-Memory Computing for Post-Von Neumann Intelligence: A Perspective.",
+      "authorString": "Tang H, Yu N, Min P, Guo R, Zhang G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tang H",
+            "firstName": "Hongyu",
+            "lastName": "Tang",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Intelligent Robotics and Advanced Manufacturing, Fudan University, Shanghai, 200433, People's Republic of China. hongyu_tang@fudan.edu.cn."
+                },
+                {
+                  "affiliation": "Shanghai Engineering Technology Research Center for SiC Power Device, Fudan University, Shanghai, 200433, People's Republic of China. hongyu_tang@fudan.edu.cn."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yu N",
+            "firstName": "Ninghai",
+            "lastName": "Yu",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Intelligent Robotics and Advanced Manufacturing, Fudan University, Shanghai, 200433, People's Republic of China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Min P",
+            "firstName": "Pengsheng",
+            "lastName": "Min",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Intelligent Robotics and Advanced Manufacturing, Fudan University, Shanghai, 200433, People's Republic of China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guo R",
+            "firstName": "Ruiqian",
+            "lastName": "Guo",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Intelligent Robotics and Advanced Manufacturing, Fudan University, Shanghai, 200433, People's Republic of China. rqguo@fudan.edu.cn."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang G",
+            "firstName": "Guoqi",
+            "lastName": "Zhang",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "EEMCS Faculty, Delft University of Technology, Delft, 2628CD, The Netherlands."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "18",
+        "journalIssueId": 4170560,
+        "dateOfPublication": "2026 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-04-01",
+        "journal": {
+          "title": "Nano-micro letters",
+          "medlineAbbreviation": "Nanomicro Lett",
+          "isoabbreviation": "Nanomicro Lett",
+          "nlmid": "101727940",
+          "essn": "2150-5551",
+          "issn": "2311-6706"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "338",
+      "abstractText": "The rapid growth of artificial intelligence, ubiquitous sensing, and edge computing is exposing fundamental limitations of conventional von Neumann architectures, in which the physical separation of sensing, memory, and computation leads to excessive data movement, high energy consumption, and latency. As transistor scaling slows in the post-Moore era, architectural innovation has become essential to sustain progress in intelligent systems. In-sensor-memory computing (ISMC) addresses these challenges by co-locating perception, storage, and computation within unified device and system architectures, enabling in situ signal processing, mixed-signal computation, and event-driven intelligence at the data source. Recent advances in memristive and ferroelectric devices, low-dimensional and multifunctional materials, three-dimensional heterogeneous integration, and neuromorphic architectures have significantly expanded the functional scope of ISMC platforms. In parallel, the co-evolution of algorithms-including spiking neural networks, reservoir computing, and neuromorphic compilers-has facilitated the translation of device-level advantages into system-level performance. This perspective surveys the technological foundations, architectural trends, and emerging applications of ISMC, examines global industry-academia-research (IAR) collaboration, and outlines key challenges related to variability, reliability, scalability, and benchmarking. Collectively, ISMC is positioned as a post-von Neumann hardware paradigm for energy-efficient, distributed intelligence.",
+      "affiliation": "College of Intelligent Robotics and Advanced Manufacturing, Fudan University, Shanghai, 200433, People's Republic of China. hongyu_tang@fudan.edu.cn.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Neuromorphic Hardware",
+          "In-sensor-memory Computing (Ismc)",
+          "Industry\u2013academia\u2013research (Iar)",
+          "Post-von Neumann Intelligence"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1007/s40820-026-02191-y"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13092463"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13092463?pdf=render"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "id": "42126685",
+            "source": "MED",
+            "reference": "Nanomicro Lett. 2026 May 13;18(1):369. doi: 10.1007/s40820-026-02217-5.",
+            "type": "Erratum in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 0,
+      "hasData": "N",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-04-19",
+      "dateOfCreation": "2026-04-19",
+      "firstIndexDate": "2026-04-20",
+      "fullTextReceivedDate": "2026-04-22",
+      "dateOfRevision": "2026-05-13",
+      "electronicPublicationDate": "2026-04-20",
+      "firstPublicationDate": "2026-04-20"
+    }
+  ]
+}

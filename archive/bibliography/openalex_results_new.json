@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "count": 146207,
+    "db_response_time_ms": 199,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4372194808",
+      "display_name": "Spiking neural predictive coding for continually learning from data streams",
+      "publication_year": 2023,
+      "cited_by_count": 23,
+      "doi": "https://doi.org/10.1016/j.neucom.2023.126292"
+    },
+    {
+      "id": "https://openalex.org/W2969980067",
+      "display_name": "Spiking Neural Predictive Coding for Continual Learning from Data Streams",
+      "publication_year": 2019,
+      "cited_by_count": 6,
+      "doi": "https://doi.org/10.48550/arxiv.1908.08655"
+    },
+    {
+      "id": "https://openalex.org/W4405466522",
+      "display_name": "Continual learning with hebbian plasticity in sparse and predictive coding networks: a survey and perspective",
+      "publication_year": 2024,
+      "cited_by_count": 3,
+      "doi": "https://doi.org/10.1088/2634-4386/ada08b"
+    },
+    {
+      "id": "https://openalex.org/W4402605100",
+      "display_name": "Developmental Predictive Coding Model for Early Infancy Mono and Bilingual Vocal Continual Learning",
+      "publication_year": 2024,
+      "cited_by_count": 2,
+      "doi": "https://doi.org/10.1007/978-3-031-72350-6_2"
+    },
+    {
+      "id": "https://openalex.org/W2041053327",
+      "display_name": "Dopamine-Mediated Reinforcement Learning Signals in the Striatum and Ventromedial Prefrontal Cortex Underlie Value-Based Choices",
+      "publication_year": 2011,
+      "cited_by_count": 306,
+      "doi": "https://doi.org/10.1523/jneurosci.3904-10.2011"
+    }
+  ],
+  "group_by": []
+}
